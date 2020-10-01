@@ -13,6 +13,15 @@
 		34339AE82450D8F3005B3C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34339AE62450D8F3005B3C06 /* Main.storyboard */; };
 		34339AEA2450D8F5005B3C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34339AE92450D8F5005B3C06 /* Assets.xcassets */; };
 		34339AED2450D8F5005B3C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34339AEB2450D8F5005B3C06 /* LaunchScreen.storyboard */; };
+		34339AF72450DE91005B3C06 /* PrepListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34339AF62450DE91005B3C06 /* PrepListViewController.swift */; };
+		34339AF92450EFDD005B3C06 /* NewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34339AF82450EFDD005B3C06 /* NewListViewController.swift */; };
+		3490BFFF24524F500013E141 /* ShopingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490BFFD24524F500013E141 /* ShopingListViewController.swift */; };
+		3490C00024524F500013E141 /* ShopingListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3490BFFE24524F500013E141 /* ShopingListCell.xib */; };
+		3490C00224524FEB0013E141 /* ShoppingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490C00124524FEB0013E141 /* ShoppingCell.swift */; };
+		3490C004245258FF0013E141 /* ListDetailTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490C003245258FF0013E141 /* ListDetailTabBar.swift */; };
+		3490C0062452B4710013E141 /* MealsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490C0052452B4710013E141 /* MealsListController.swift */; };
+		3490C0082452B4D70013E141 /* MealsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3490C0072452B4D70013E141 /* MealsCell.xib */; };
+		3490C00A2452B5800013E141 /* MealsListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490C0092452B5800013E141 /* MealsListCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		34339AE92450D8F5005B3C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34339AEC2450D8F5005B3C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34339AEE2450D8F5005B3C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34339AF62450DE91005B3C06 /* PrepListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepListViewController.swift; sourceTree = "<group>"; };
+		34339AF82450EFDD005B3C06 /* NewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListViewController.swift; sourceTree = "<group>"; };
+		3490BFFD24524F500013E141 /* ShopingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopingListViewController.swift; sourceTree = "<group>"; };
+		3490BFFE24524F500013E141 /* ShopingListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopingListCell.xib; sourceTree = "<group>"; };
+		3490C00124524FEB0013E141 /* ShoppingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCell.swift; sourceTree = "<group>"; };
+		3490C003245258FF0013E141 /* ListDetailTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailTabBar.swift; sourceTree = "<group>"; };
+		3490C0052452B4710013E141 /* MealsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListController.swift; sourceTree = "<group>"; };
+		3490C0072452B4D70013E141 /* MealsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealsCell.xib; sourceTree = "<group>"; };
+		3490C0092452B5800013E141 /* MealsListCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +76,16 @@
 			children = (
 				34339AE02450D8F3005B3C06 /* AppDelegate.swift */,
 				34339AE22450D8F3005B3C06 /* SceneDelegate.swift */,
+				34339AF62450DE91005B3C06 /* PrepListViewController.swift */,
+				34339AF82450EFDD005B3C06 /* NewListViewController.swift */,
 				34339AE42450D8F3005B3C06 /* ViewController.swift */,
+				3490C003245258FF0013E141 /* ListDetailTabBar.swift */,
+				3490BFFD24524F500013E141 /* ShopingListViewController.swift */,
+				3490C00124524FEB0013E141 /* ShoppingCell.swift */,
+				3490BFFE24524F500013E141 /* ShopingListCell.xib */,
+				3490C0052452B4710013E141 /* MealsListController.swift */,
+				3490C0092452B5800013E141 /* MealsListCellTableViewCell.swift */,
+				3490C0072452B4D70013E141 /* MealsCell.xib */,
 				34339AE62450D8F3005B3C06 /* Main.storyboard */,
 				34339AE92450D8F5005B3C06 /* Assets.xcassets */,
 				34339AEB2450D8F5005B3C06 /* LaunchScreen.storyboard */,
@@ -125,7 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3490C0082452B4D70013E141 /* MealsCell.xib in Resources */,
 				34339AED2450D8F5005B3C06 /* LaunchScreen.storyboard in Resources */,
+				3490C00024524F500013E141 /* ShopingListCell.xib in Resources */,
 				34339AEA2450D8F5005B3C06 /* Assets.xcassets in Resources */,
 				34339AE82450D8F3005B3C06 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3490C0062452B4710013E141 /* MealsListController.swift in Sources */,
 				34339AE52450D8F3005B3C06 /* ViewController.swift in Sources */,
+				3490BFFF24524F500013E141 /* ShopingListViewController.swift in Sources */,
+				34339AF72450DE91005B3C06 /* PrepListViewController.swift in Sources */,
 				34339AE12450D8F3005B3C06 /* AppDelegate.swift in Sources */,
+				3490C004245258FF0013E141 /* ListDetailTabBar.swift in Sources */,
+				3490C00224524FEB0013E141 /* ShoppingCell.swift in Sources */,
+				34339AF92450EFDD005B3C06 /* NewListViewController.swift in Sources */,
+				3490C00A2452B5800013E141 /* MealsListCellTableViewCell.swift in Sources */,
 				34339AE32450D8F3005B3C06 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
